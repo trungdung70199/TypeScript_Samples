@@ -7,10 +7,14 @@ if (message) {
 }
 
 var id = 1;
-var email = "test@gmail.com";
-var isActive = true;
-var none;
+var email:string = "test@gmail.com";
+var isActive:boolean = true;
+var none:any;
 
-none = "D";
-none = 5;
+// none = "D";
+// none = 5;
 
+console.log(id, typeof id);
+console.log(email, typeof email);
+console.log(isActive, typeof isActive);
+console.log(none, typeof none);
